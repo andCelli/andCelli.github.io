@@ -1,0 +1,211 @@
+body {
+    font-family: 'Roboto', Helvetica, Arial, san-serif;
+}
+
+h1 {
+    margin-top: 15px;
+}
+
+h2 {
+    margin: 5px 0 5px 0;
+    font-weight: 400;
+    padding: 0;
+}
+
+h3 {
+    padding-top: 15px;
+    font-weight: 400;
+}
+
+.sidebar {
+    width: 240px;
+    float: left;
+    padding: 15px 15px 0 30px;
+    height: 100%
+}
+
+.sidebar img {
+    padding-top: 30px;
+}
+
+.name {
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.subtitle {
+    font-weight: 300;
+}
+
+.topbar {
+    display: block;
+    width: 100%;
+    height: 90px;
+    margin-left: 240px;
+    padding: 15px 0 0 15px;
+}
+
+.topbar ul {
+    list-style: none;
+    margin: 0;
+}
+
+.topbar ul li {
+    display: block;
+    float: left;
+    margin-right: 50px;
+    font-size: 22px;
+    font-weight: 300;
+    padding-bottom: 10px;
+    color: #1414e8;
+}
+
+.topbar ul li:hover {
+    color: purple;
+    cursor: pointer;
+}
+
+.topbar li.selected {
+    border-bottom: 1px solid #1414e8;;
+}
+
+.maintext {
+    display: block;
+    margin-left: 240px;
+    padding-left: 50px;
+    font-weight: 300;
+    width: 600px;
+}
+
+.maintext h1 {
+    font-weight: 300;
+    font-size: 28px;
+}
+
+.maintext b {
+    font-weight: 400;
+}
+
+.maintext a {
+    color: #1414e8;
+    text-decoration: none;
+}
+
+.maintext a:hover {
+    cursor: pointer;
+    color: purple;
+}
+
+.research_list ul {
+    list-style: none;
+    padding-left: 0px;
+    margin-bottom: 30px;
+}
+
+.research_list ul li {
+    margin-bottom: 20px;
+    max-width: 600px;
+}
+
+.research_list .content {
+    font-weight: 300;
+}
+
+.research_list .title {
+    font-weight: 500;
+}
+
+.research_list .tagcell {
+    width: 50px;
+    vertical-align: top;
+}
+
+.research_list .tag {
+    font-weight: 400;
+    text-align: center;
+    color: white;
+    padding: 5px;
+    font-size: 14px;
+    font-weight: 400;
+    width: 35px;
+    height: 18px;
+    line-height: 18px;
+}
+
+.research_list .conference {
+    background-color: #0233d1;
+}
+
+.research_list .journal {
+    background-color: #e6233d;
+}
+
+.research_list .bookchapter {
+    background-color: #ff8c00;
+    
+}
+
+.research_list .thesis {
+    background-color: #ffd700;
+    
+}
+
+.research_list .working {
+    background-color: #606b70;
+}
+
+.ed_list th {
+    font-weight: 300;
+}
+
+.ed_list .title {
+    font-weight: 400;
+}
+
+.ed_list .year {
+    font-weight: 300;
+    padding: 10px;
+    color: white;
+    background-color: #41ab8d;
+    height: 18px;
+    line-height: 18px;
+    margin-right: 10px;
+    font-weight: 400;
+    width: 40px;
+    text-align: center;
+}
+
+.ed_list .blankyear {
+    padding: 10px;
+    margin-right: 10px;
+    width: 40px;
+}
+
+.ed_list ul {
+    list-style: none;
+    padding-left: 0px;
+}
+
+.ed_list ul li {
+    margin-bottom: 20px;
+}
+
+.ed_list ul li.blankyearlist {
+    margin-bottom: 5px;
+}
+
+.contact_list ul {
+    list-style: none;
+    padding: 0;
+}
+
+.contact_list ul li {
+    display: block;
+    height: 90px;;
+    padding: 15px;
+}
+
+.contact_list img {
+    float: left;
+    margin-right: 20px;
+}
