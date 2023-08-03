@@ -125,12 +125,12 @@ h1, h2, h3, h4, h5, h6 {
 /* CUSTOM FONTS */
 @font-face {
 	font-family: Roboto-reg;
-	src: url(Roboto-Regular.ttf);
+	src: url(SourceSerifPro-Regular.ttf);
 }
 
 @font-face {
 	font-family: Roboto-bold;
-	src: url(Roboto-Medium.ttf);
+	src: url(SourceSerifPro-Bold.ttf);
 }
 
 
