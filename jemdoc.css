@@ -6,8 +6,9 @@ body {
 #layout-menu {
 	background-color: #ffffff;
 	font-family: Roboto-reg;
-	border: 0px solid #dddddd;
-	padding-top: 2em;
+	border: 0px solid #ffa420;
+	border-right: 2px solid #ffa420;
+	padding-top: 5em;
 	padding-left: 20px;
 	padding-right: 8px;
 	font-size: 1.0em;
@@ -36,10 +37,11 @@ a, a > tt {
 
 a:hover {
 	border-bottom: 1px #0d1d91 dotted;
+	color: #e88a17;
 }
 
 #layout-menu a.current:link, #layout-menu a.current:visited {
-	color: #e88a17;;
+	color: #e88a17;
 	border-bottom: 1px gray solid;
 }
 #layout-menu a:link, #layout-menu a:visited, #layout-menu a:hover {
@@ -47,6 +49,7 @@ a:hover {
 	text-decoration: none;
 }
 #layout-menu a:hover {
+	color: #e88a17;
 	text-decoration: none;
 }
 
@@ -61,7 +64,7 @@ div.menu-category {
 div#toptitle {
 	padding-bottom: 0.2em;
 	margin-bottom: 1.5em;
-	border-bottom: 3px double gray;
+	border-bottom: 0px double gray;
 }
 
 /* Reduce space if we begin the page with a title. */
@@ -120,17 +123,18 @@ h1, h2, h3, h4, h5, h6 {
 	padding-bottom: 0.2em;
 	line-height: 1.0;
 	padding-top: 0.5em;
-	border-bottom: 1px solid #aaaaaa;
+	border-bottom: 0px solid #aaaaaa;
+	font-weight: bold;
 }
 /* CUSTOM FONTS */
 @font-face {
 	font-family: Roboto-reg;
-	src: url(SourceSerifPro-Regular.ttf);
+	src: url(Roboto-Regular.ttf);
 }
 
 @font-face {
 	font-family: Roboto-bold;
-	src: url(SourceSerifPro-Bold.ttf);
+	src: url(Rodoto-Bold.ttf);
 }
 
 
