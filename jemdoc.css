@@ -6,8 +6,8 @@ body {
 #layout-menu {
 	background-color: #ffffff;
 	font-family: Roboto-reg;
-	border: 0px solid #ffa420;
-	border-right: 2px solid #ffa420;
+	border: 0px solid #000000;
+	border-right: 2px solid #000000;
 	padding-top: 5em;
 	padding-left: 20px;
 	padding-right: 8px;
@@ -36,20 +36,20 @@ a, a > tt {
 }
 
 a:hover {
-	border-bottom: 1px #0d1d91 dotted;
-	color: #e88a17;
+	border-bottom: 3px #0d1d91 dotted;
+	color: #e817cc;
 }
 
 #layout-menu a.current:link, #layout-menu a.current:visited {
-	color: #e88a17;
-	border-bottom: 1px gray solid;
+	color: #e817cc;
+	border-bottom: 3px gray solid;
 }
 #layout-menu a:link, #layout-menu a:visited, #layout-menu a:hover {
 	color: #0d1d91;
 	text-decoration: none;
 }
 #layout-menu a:hover {
-	color: #e88a17;
+	color: #e817cc;
 	text-decoration: none;
 }
 
